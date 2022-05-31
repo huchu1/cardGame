@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.border{
+    width: 547px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+#menuTable{
+    margin-bottom: 20px;
+}
+
+#menuTable span{
+    margin-left: 10px;
+}
+
+#startBtn{
+    border: none;
+    color: #fff;
+    background-color: #292792;
+    width: 100px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+#cardTable{
+    border-collapse: collapse;
+}
+
+#cardTable td{
+    border: 1px solid #292792;
+    width: 90px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#cardTable td img{
+    max-width: 70px;
+}
+
+#cardTable td span{
+    font-size: 25px;
+    font-weight: bold;
+    color: #292792;
+    display: none;
+    background-color: rgb(222, 207, 226);
+    height: 100%;
+    line-height: 100px;
+}
+
+#cardTable td:hover{
+    background-color: rgb(182, 175, 206);
+}
+
+#cardTable td img:hover{
+    background-color: rgb(182, 175, 206);
+}
+
+#cardTable td span:hover{
+    background-color: rgb(182, 175, 206);
+}
+
+.box{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#countDown{
+    background-color: #292792;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 40px;
+}
+
+#info{
+    width: 547px;
+    height: 220px;
+    background-color: rgb(222, 207, 226);
+    color: #000;
+    padding-top: 180px;
+}
+
+#restart{
+    width: 544px;
+    height: 405px;
+    border: 1px solid #292792;
+    background-color: #fff;
+    border-radius: 10px;
+    float: left;
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 41%;
+}
+
+#restart p{
+    margin-bottom: 10px;
+}
+
+.giftbox{
+    text-align: left;
+    border: 2px solid #292792;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.fail{
+    margin-top: 150px;
+}
+
+#success{
+    width: 544px;
+    height: 405px;
+    border: 1px solid #292792;
+    position: absolute;
+    background-color: #fff;
+    top: 46%;
+    line-height: 300px;
+    display: none;
+    border-radius: 10px;
+}

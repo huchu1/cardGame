@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카드 맞추기 게임</title>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css"></link>
+</head>
+<body>
+    <div class="border">
+        <div class="game">
+            <h2>카드 맞추기 게임</h2>
+            <div class="giftbox">
+                <p>-10점 이하 : 실패</p>
+                <p>50점 이하 : 오래가는 곡괭이 데미지 상승 물약</p>
+                <p>55점 이상 : 특수분장 랜덤박스</p>
+                <p>85점 이상 : 커다란 레딧 주머니</p>
+            </div>
+            <table id="menuTable">
+                <tr>
+                    <td class="startBox">
+                        <button id="startBtn">시작하기</button>
+                    </td>
+                    <td>
+                        <span>점수 : <span id="score">0</span></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="box">
+            <div id="countDown">
+                &nbsp;
+            </div>
+            <table id="cardTable"></table>
+            <div id="info">
+                start 버튼을 눌러주세요!<br>
+            </div>
+        </div>
+        <div id="restart">
+            <p class="fail">실패하셨습니다.</p>
+            <p>새로 시작하시겠습니까?</p>
+            <button id="startBtn">시작하기</button>
+        </div>
+    </div>
+</body>
+</html>
